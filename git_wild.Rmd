@@ -35,9 +35,17 @@ ggplot(data = diamonds, aes(x = color, y = carat) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+
+# Hi Meghan! 
+
+Teddy <- 2 + 5
+# Some other text
+# That will break things
+
 ggplot(data = diamonds, aes(x = depth, y = carat)) +
   geom_point(aes(color=cut)) +
   theme_minimal()
+
 ```
 
 ```{r break-it-2}
